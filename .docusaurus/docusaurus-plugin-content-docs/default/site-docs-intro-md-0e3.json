@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Introduction",
+  "description": "Overview",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "intro",
+    "title": "Introduction",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Supabase Architecture",
+    "permalink": "/docs/SUPABASE_DOCUMENTATION"
+  }
+}

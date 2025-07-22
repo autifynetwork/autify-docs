@@ -1,0 +1,22 @@
+{
+  "id": "API_DOCUMENTATION",
+  "title": "API Reference",
+  "description": "Table of Contents",
+  "source": "@site/docs/API_DOCUMENTATION.md",
+  "sourceDirName": ".",
+  "slug": "/API_DOCUMENTATION",
+  "permalink": "/docs/API_DOCUMENTATION",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "API_DOCUMENTATION",
+    "title": "API Reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Component Guide",
+    "permalink": "/docs/COMPONENT_DOCUMENTATION"
+  }
+}

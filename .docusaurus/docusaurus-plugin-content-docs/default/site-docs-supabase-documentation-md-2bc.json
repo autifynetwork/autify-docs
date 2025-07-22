@@ -1,0 +1,26 @@
+{
+  "id": "SUPABASE_DOCUMENTATION",
+  "title": "Supabase Architecture",
+  "description": "Table of Contents",
+  "source": "@site/docs/SUPABASE_DOCUMENTATION.md",
+  "sourceDirName": ".",
+  "slug": "/SUPABASE_DOCUMENTATION",
+  "permalink": "/docs/SUPABASE_DOCUMENTATION",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "SUPABASE_DOCUMENTATION",
+    "title": "Supabase Architecture"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Component Guide",
+    "permalink": "/docs/COMPONENT_DOCUMENTATION"
+  }
+}
