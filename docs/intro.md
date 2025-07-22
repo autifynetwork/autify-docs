@@ -431,12 +431,10 @@ supabase link --project-ref your-project-ref
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes and version history.
+_Change log will be available soon._
 
 ---
 
-**Last Updated:** January 2024  
-**Version:** 1.0.0  
-**Maintainer:** Autify Network Development Team 
+**Last Updated:** Jaly 2054  
+**Version:** 1.1.0  
+**Maintainer:** Autify Network Dev Team 
