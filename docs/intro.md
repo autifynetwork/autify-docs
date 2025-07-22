@@ -431,7 +431,10 @@ supabase link --project-ref your-project-ref
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-_Change log will be available soon._
+## Changelog
+
+See [Changelog](changelog) for a complete list of changes.
+
 
 ---
 
