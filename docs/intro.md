@@ -433,11 +433,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Changelog
 
-See [Changelog](changelog) for a complete list of changes.
+See the [Changelog](changelog) for a complete list of changes and version history.
 
 
 ---
 
-**Last Updated:** Jaly 2054  
+**Last Updated:** July 2025  
 **Version:** 1.1.0  
 **Maintainer:** Autify Network Dev Team 
