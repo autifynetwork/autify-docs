@@ -1,11 +1,12 @@
 module.exports = {
   tutorialSidebar: [
     'intro',
-    'changelog',
+    'CHANGELOG',
     'API_DOCUMENTATION',
     'COMPONENT_DOCUMENTATION',
     'SUPABASE_DOCUMENTATION'
   ],
 };
+
 
 
