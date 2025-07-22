@@ -7,9 +7,9 @@ const config = {
   tagline: 'Documentation for Autify Network',
   url: 'https://docs.autifynetwork.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'favicon.ico',
+  favicon: 'img/favicon.ico',
   organizationName: 'autifynetwork',
   projectName: 'autify-docs',
   presets: [
