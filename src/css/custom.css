@@ -1,5 +1,25 @@
 /* src/css/custom.css */
 :root {
-  --ifm-color-primary: #F0574E;
+  --ifm-color-primary: #032A3E;
+  --ifm-color-primary-dark: #022530;
+  --ifm-color-primary-darker: #011f29;
+  --ifm-color-primary-darkest: #011821;
+  --ifm-color-primary-light: #043044;
+  --ifm-color-primary-lighter: #05364d;
+  --ifm-color-primary-lightest: #063c56;
+
+  /* Optional: tweak sidebar and navbar */
+  --ifm-navbar-background-color: #032A3E;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #d3eaff;
+
+  --ifm-footer-background-color: #032A3E;
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-link-color: #ffffff;
+  --ifm-footer-link-hover-color: #d3eaff;
+
+  /* Sidebar text */
+  --ifm-menu-color: #032A3E;
+  --ifm-menu-color-active: #032A3E;
 }
 
