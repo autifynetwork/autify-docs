@@ -1,0 +1,23 @@
+{
+  "id": "CHANGELOG",
+  "title": "Changelog",
+  "description": "All notable changes to the Autify Network Docs project will be documented here.",
+  "source": "@site/docs/CHANGELOG.md",
+  "sourceDirName": ".",
+  "slug": "/CHANGELOG",
+  "permalink": "/CHANGELOG",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/API_DOCUMENTATION"
+  }
+}

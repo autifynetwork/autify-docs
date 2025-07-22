@@ -1,0 +1,19 @@
+{
+  "id": "changelog",
+  "title": "Changelog",
+  "description": "All notable changes to the Autify Network Docs project will be documented here.",
+  "source": "@site/docs/changelog.md",
+  "sourceDirName": ".",
+  "slug": "/changelog",
+  "permalink": "/changelog",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Component Guide",
+    "permalink": "/COMPONENT_DOCUMENTATION"
+  }
+}

@@ -8,63 +8,62 @@ export default {
   "tagline": "Documentation for Autify Network",
   "url": "https://docs.autifynetwork.com",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "favicon.ico",
+  "favicon": "img/favicon.ico",
   "organizationName": "autifynetwork",
   "projectName": "autify-docs",
-  "presets": [
-    [
-      "classic",
-      {
-        "docs": {
-          "sidebarPath": "/Users/nabarunchakraborty/Desktop/Autify/Autify Launch/autify-docs/sidebars.js"
-        },
-        "theme": {
-          "customCss": "/Users/nabarunchakraborty/Desktop/Autify/Autify Launch/autify-docs/src/css/custom.css"
-        }
-      }
-    ]
-  ],
-  "baseUrlIssueBanner": true,
-  "i18n": {
-    "defaultLocale": "en",
-    "path": "i18n",
-    "locales": [
-      "en"
-    ],
-    "localeConfigs": {}
-  },
-  "future": {
-    "v4": {
-      "removeLegacyPostBuildHeadAttribute": false,
-      "useCssCascadeLayers": false
-    },
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
-    },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
-    "experimental_router": "browser"
-  },
-  "onBrokenAnchors": "warn",
-  "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
-  "customFields": {},
-  "plugins": [],
-  "themes": [],
   "themeConfig": {
+    "metadata": [
+      {
+        "name": "keywords",
+        "content": "Autify Network, Climate Credits, Blockchain, ESG, Documentation"
+      },
+      {
+        "name": "description",
+        "content": "Documentation for Autify Network — tokenized ESG credits and climate infrastructure on Web3."
+      },
+      {
+        "name": "author",
+        "content": "Autify Network"
+      }
+    ],
+    "footer": {
+      "style": "dark",
+      "links": [
+        {
+          "title": "Docs",
+          "items": [
+            {
+              "label": "Introduction",
+              "to": "/"
+            },
+            {
+              "label": "API Reference",
+              "to": "/API_DOCUMENTATION"
+            },
+            {
+              "label": "Component Guide",
+              "to": "/COMPONENT_DOCUMENTATION"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "items": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/autifynetwork/autify-docs"
+            },
+            {
+              "label": "Website",
+              "href": "https://autifynetwork.com"
+            }
+          ]
+        }
+      ],
+      "copyright": "© 2025 Autify Network. All rights reserved."
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -82,7 +81,6 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
     "navbar": {
       "hideOnScroll": false,
       "items": []
@@ -234,6 +232,63 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "presets": [
+    [
+      "classic",
+      {
+        "docs": {
+          "routeBasePath": "/",
+          "sidebarPath": "/Users/nabarunchakraborty/Desktop/Autify/Autify Launch/autify-docs/sidebars.js"
+        },
+        "theme": {
+          "customCss": "/Users/nabarunchakraborty/Desktop/Autify/Autify Launch/autify-docs/src/css/custom.css"
+        },
+        "sitemap": {
+          "changefreq": "weekly",
+          "priority": 0.5,
+          "filename": "sitemap.xml"
+        }
+      }
+    ]
+  ],
+  "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
+  "onBrokenAnchors": "warn",
+  "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
+  "customFields": {},
+  "plugins": [],
+  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

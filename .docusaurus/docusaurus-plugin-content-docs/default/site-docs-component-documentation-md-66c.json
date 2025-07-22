@@ -5,7 +5,7 @@
   "source": "@site/docs/COMPONENT_DOCUMENTATION.md",
   "sourceDirName": ".",
   "slug": "/COMPONENT_DOCUMENTATION",
-  "permalink": "/docs/COMPONENT_DOCUMENTATION",
+  "permalink": "/COMPONENT_DOCUMENTATION",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Supabase Architecture",
-    "permalink": "/docs/SUPABASE_DOCUMENTATION"
+    "title": "API Reference",
+    "permalink": "/API_DOCUMENTATION"
   },
   "next": {
-    "title": "API Reference",
-    "permalink": "/docs/API_DOCUMENTATION"
+    "title": "Changelog",
+    "permalink": "/changelog"
   }
 }
