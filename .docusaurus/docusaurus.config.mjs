@@ -28,6 +28,25 @@ export default {
         "content": "Autify Network"
       }
     ],
+    "navbar": {
+      "logo": {
+        "alt": "Autify Network Logo",
+        "src": "img/logo.png"
+      },
+      "items": [
+        {
+          "href": "https://autifynetwork.com",
+          "label": "Main Website",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/autifynetwork/autify-docs",
+          "label": "GitHub",
+          "position": "right"
+        }
+      ],
+      "hideOnScroll": false
+    },
     "footer": {
       "style": "dark",
       "links": [
@@ -80,10 +99,6 @@ export default {
       "sidebar": {
         "groupByYear": true
       }
-    },
-    "navbar": {
-      "hideOnScroll": false,
-      "items": []
     },
     "prism": {
       "additionalLanguages": [],

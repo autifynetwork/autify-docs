@@ -19,6 +19,26 @@ const config = {
       { name: 'description', content: 'Documentation for Autify Network — tokenized ESG credits and climate infrastructure on Web3.' },
       { name: 'author', content: 'Autify Network' },
     ],
+
+    navbar: {
+      logo: {
+        alt: 'Autify Network Logo',
+        src: 'img/logo.png', // Place logo here: static/img/logo.png
+      },
+      items: [
+        {
+          href: 'https://autifynetwork.com',
+          label: 'Main Website',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/autifynetwork/autify-docs',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+
     footer: {
       style: 'dark',
       links: [
@@ -65,4 +85,3 @@ const config = {
 };
 
 module.exports = config;
-
